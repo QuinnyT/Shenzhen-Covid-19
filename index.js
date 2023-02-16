@@ -21,7 +21,7 @@ const colorList = [
 
 const tooltip = d3.select('#tooltip')
 
-$.getJSON("./data/dataNewWithLnglat.json", (points) => {
+$.getJSON("./data/dataNewWithLngLat.json", (points) => {
   // console.log("res", res);
   pointData = points;
 
