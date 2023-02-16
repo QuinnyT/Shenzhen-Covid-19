@@ -690,7 +690,7 @@ function svgControl() {
       .attr("x", event1X - 55)
       .attr("y", event1Y + 20)
     var label1, info1;
-    var label1SVG = foreignObject1.append("xhtml:object").attr("data", "label3.svg")
+    var label1SVG = foreignObject1.append("xhtml:object").attr("data", "label.svg")
       .style('width', "100%")
       .style('height', "100%")
       .on("load", function() {
@@ -713,7 +713,7 @@ function svgControl() {
       .style('cursor', "pointer")
 
     var label2, info2;
-    var label2SVG = foreignObject2.append("xhtml:object").attr("data", "label3.svg")
+    var label2SVG = foreignObject2.append("xhtml:object").attr("data", "label.svg")
       .style('width', "100%")
       .style('height', "100%")
       .on("load", function() {
