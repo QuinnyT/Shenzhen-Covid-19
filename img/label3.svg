@@ -1,0 +1,41 @@
+<svg id="label1_svg" xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 150 95">
+    <defs>
+        <style>
+            .changeColor {
+                stroke: #ffffff !important;
+                stroke-width: 4 !important;
+                fill: none !important;
+            }
+            text {
+                transition: opacity 1s;
+            }
+
+            .cls-1 {
+                fill: #3a3a3a;
+            }
+
+            .cls-2 {
+                font-size: 17px;
+            }
+
+            .cls-2,
+            .cls-3 {
+                font-family: HGY1_CNKI;
+                opacity: 0;
+            }
+
+            .cls-3 {
+                font-size: 16.7px;
+            }
+        </style>
+    </defs>
+    <g id="icon">
+        <path class="cls-1"
+            d="M118.1,32H98L75.5,7,53,32H32.9A18.9,18.9,0,0,0,14,50.9V83.1A18.9,18.9,0,0,0,32.9,102h85.2A18.9,18.9,0,0,0,137,83.1V50.9A18.9,18.9,0,0,0,118.1,32Z"
+            transform="translate(-14 -7)" />
+    </g><text id="info1" class="cls-2" transform="translate(10.68 56.43)">乘坐公共交通<tspan x="-0.93" y="20.4">需48小时核酸
+        </tspan></text><text id="info2" class="cls-3" transform="translate(11.09 46.36) scale(1.02 1)">全市“停运”<tspan
+            x="44.63" y="20.05">+</tspan>
+        <tspan x="0" y="40.09">全民三轮核酸</tspan>
+    </text>
+</svg>

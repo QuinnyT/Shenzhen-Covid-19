@@ -1,0 +1,20 @@
+<svg id="label1_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 116">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #3a3a3a;
+            }
+            
+            .changeColor {
+                stroke: #ffffff !important;
+                fill: none !important;
+                transition: stroke 1s;
+                transition: fill 1s;
+            }
+        </style>
+    </defs>
+    <g id="label1">
+        <polygon class="cls-1" points="49.5 0 81 35 18 35 49.5 0" />
+        <circle class="cls-1" cx="50" cy="66" r="50" />
+    </g>
+</svg>

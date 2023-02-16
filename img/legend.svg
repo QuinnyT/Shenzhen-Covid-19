@@ -1,0 +1,50 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.32 15">
+    <defs>
+        <style>
+        
+            :root {
+              --color-1: #96bdd5;
+              --color-2: #b8d7b3;
+              --color-3: #F5B77C;
+              --color-4: #F38B8B;
+            }
+
+
+            .cls-1 {
+                fill: var(--color-1);
+            }
+
+            .cls-2 {
+                fill: #fff;
+            }
+
+            .cls-3 {
+                font-size: 4.87px;
+                fill: #f1f1f1;
+                font-family: HGY1_CNKI;
+            }
+
+            .cls-4 {
+                fill: var(--color-2);
+            }
+
+            .cls-5 {
+                fill: var(--color-3);
+            }
+
+            .cls-6 {
+                fill: var(--color-4);
+            }
+        </style>
+    </defs>
+    <rect class="cls-1" y="8" width="13.3" height="7" />
+    <rect class="cls-2" x="25" width="1" />
+    <polygon points="26 0 25 0 25 0 26 0 26 0 26 0" /><text class="cls-3"
+        transform="translate(16.05 13.28)">14岁及以下</text>
+    <rect class="cls-4" x="50.34" y="7.7" width="13.3" height="7" /><text class="cls-3"
+        transform="translate(66.04 12.72)">15-35岁</text>
+    <rect class="cls-5" x="94.68" y="7.7" width="13.3" height="7" /><text class="cls-3"
+        transform="translate(110.74 12.73)">16-60岁</text>
+    <rect class="cls-6" x="142.02" y="7.7" width="13.3" height="7" /><text class="cls-3"
+        transform="translate(158.45 12.72)">61岁及以上</text>
+</svg>

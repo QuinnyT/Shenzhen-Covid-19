@@ -1,0 +1,21 @@
+<svg id="label1_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 95">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #3a3a3a;
+            }
+            
+            .changeColor {
+                stroke: #ffffff !important;
+                stroke-width: 6 !important;
+                fill: none !important;
+                <!-- transition: stroke  1s;
+                transition: stroke-width  1s;
+                transition: fill 1s; -->
+            }
+        </style>
+    </defs>
+    <path class="cls-1" id="label"
+        d="M118.1,32H98L75.5,7,53,32H32.9A18.9,18.9,0,0,0,14,50.9V83.1A18.9,18.9,0,0,0,32.9,102h85.2A18.9,18.9,0,0,0,137,83.1V50.9A18.9,18.9,0,0,0,118.1,32Z"
+        transform="translate(-14 -7)" />
+</svg>

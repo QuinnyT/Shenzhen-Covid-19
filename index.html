@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="no-js">
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta charset="utf-8">
+    <title>图表展示</title>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="./converse.js"></script>
+    
+    <script src="https://api.map.baidu.com/api?v=3.0&ak=k7ApdFnABOHOrzs42QSGER21zknxzti6"></script>
+    
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.3.2/echarts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/extension/bmap.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            padding: 0;
+
+            width: 100%;
+            height: 100%;
+
+            scrollbar-width: none; /* firefox */
+            -ms-overflow-style: none; /* IE 10+ */
+            overflow-x: hidden; 
+            overflow-y: hidden; 
+
+            font-size: 62.5%;
+        }
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-color: #1F1F20;
+        }
+
+        object {
+            height: 100%;
+            width: 100%;
+        }
+
+        #mask1 {
+            transition: width 1.5s;
+        }
+
+        #mask2 {
+            transition: width 1.5s;
+        }
+
+
+        .beeswarmImg {
+            transition: opacity 1s;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title" style="height: 6%; color: white; font-size: 45px; position: relative; margin-top: 3%; z-index: 100;">
+        <div class="center">2022年深圳疫情</div>
+    </div>
+
+    <div id="intro" style="height: 10%; width: 50%; margin-top: 1.5%; margin-left: 25%; color: #9F9F9F; font-family: 'Microsoft YaHei'; font-size: 16px; line-height: 140%;">
+        该作品统计了深圳市从2022年1月至3月，“新冠肺炎”每日新增确诊病例的每个个案的发病时间、居住区域和所处年龄段，展示了深圳疫情局势在三个月内从相对平稳，到局部区域小面积爆发、全市大面积爆发，直至再次得以控制的整个过程。<br/>
+        <span style="font-style: italic; font-size: 12px;">数据来源： opendata.sz.gov.cn </span> 
+    </div>
+
+    <div id="main" style="position: absolute;right: 0%; top: 10%; width: 40%; height:800px;"></div>
+
+    <div id="statsChart" style="position: absolute; left: 1%; top: 25%; width: 13%; height: 72%;"></div>
+
+    <div id="chartFromRawGraph" style="position: absolute; left: 14%; top: 23%; width: 50%; height: 76%;">
+        <object id="mysvg" data="./img/test9_testcolor.svg"></object>
+    </div>
+    
+
+    <div id="legend" style="position: absolute; right: 0; bottom: 12%; width: 35%; height: 58px;">
+        <embed src="./img/legend2.svg" width="100%"; height="100%" alt="">
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
